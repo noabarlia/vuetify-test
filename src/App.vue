@@ -29,19 +29,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <Todo/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Todo from './components/Todo';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Todo,
   },
 
   data: () => ({
